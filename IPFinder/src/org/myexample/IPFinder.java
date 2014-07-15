@@ -4,6 +4,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Scanner;
 
+//Finds the IP address of the localhost and a specified host
 public class IPFinder 
 {
 	public static void main(String[] args)
