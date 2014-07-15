@@ -25,5 +25,9 @@ public class IPFinder
 		{
 			e.printStackTrace();
 		}
+		finally
+		{
+			System.out.println("In finally ...");
+		}
 	}
 }
