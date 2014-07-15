@@ -22,7 +22,7 @@ public class IPFinder
 			System.out.println("Address of " + host + " is:" + InetAddress.getByName(host));
 		}catch(UnknownHostException e)
 		{
-			
+			e.printStackTrace();
 		}
 	}
 }
