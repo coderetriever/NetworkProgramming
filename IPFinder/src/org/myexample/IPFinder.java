@@ -28,6 +28,7 @@ public class IPFinder
 		finally
 		{
 			System.out.println("In finally ...");
+			System.out.println("A test line");
 		}
 	}
 }
